@@ -1,6 +1,6 @@
 var MyHeading=document.querySelector('h1');
 
-var myColor='blue'
+var myColor='green'
 
 if (myColor=='green'){
     heading='welcome to my green world!';
@@ -24,3 +24,7 @@ var myNumber2=10;
 var myCalculation=multiply(myNumber1,myNumber2);
 var myCalculation=myCalculation.toString()
 myText.textContent=myCalculation
+
+document.querySelector('html').onclick = function() {
+    alert('Hey you! out there in the cold');
+}
