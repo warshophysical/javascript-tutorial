@@ -10,3 +10,17 @@ if (myColor=='green'){
 }
 
 MyHeading.textContent=heading;
+
+var myText=document.querySelector('p');
+
+function multiply(num1,num2){
+    var result=num1*num2;
+    return result;
+}
+
+var myNumber1=5;
+var myNumber2=10;
+
+var myCalculation=multiply(myNumber1,myNumber2);
+var myCalculation=myCalculation.toString()
+myText.textContent=myCalculation
