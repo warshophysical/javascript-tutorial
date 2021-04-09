@@ -25,6 +25,11 @@ var myCalculation=multiply(myNumber1,myNumber2);
 var myCalculation=myCalculation.toString()
 myText.textContent=myCalculation
 
-document.querySelector('html').onclick = function() {
-    alert('Hey you! out there in the cold');
-}
+// document.querySelector('html').onclick = function() {
+//     alert('Hey you! out there in the cold');
+// }
+
+var myHTML = document.querySelector('html');
+myHTML.onclick = function() {
+    alert('Hey you! out there in the cold')
+};
