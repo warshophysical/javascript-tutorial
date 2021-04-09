@@ -33,3 +33,14 @@ var myHTML = document.querySelector('html');
 myHTML.onclick = function() {
     alert('Hey you! out there in the cold')
 };
+
+let myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+    let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'resources/images/sungerbob1.png') {
+      myImage.setAttribute('src','resources/images/sungerbob2.png');
+    } else {
+      myImage.setAttribute('src','resources/images/sungerbob3.png');
+    }
+}
